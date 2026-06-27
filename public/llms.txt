@@ -1,0 +1,71 @@
+# יהונתן גורביץ — Generative Engine Optimization Map
+
+> A charitable initiative focused on supporting Israeli soldiers and reservists (Miluim). The landing page aims to collect monetary donations and food vouchers for soldiers, while also building an email/contact list of supporters. The cause is patriotic and community-driven, centered around military support and national solidarity.
+
+---
+
+## Pages
+
+### בית
+https://-4d21dcf7.zappy5.app
+הצטרפו ליוזמת ההתנדבות הלאומית ותרמו כסף או שוברי מזון לחיילי צה״ל ולמילואימניקים. כל תרומה מחזקת את העורף הישראלי ומביאה תקווה בשטח. השאירו פרטים והפכו שותפים למעגל התמיכה.
+
+### תודה על פנייתך
+https://-4d21dcf7.zappy5.app/thank-you
+יהונתן גורביץ - תודה על פנייתך
+
+## Legal & Policy
+
+### Privacy Policy
+https://-4d21dcf7.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-4d21dcf7.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-4d21dcf7.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-4d21dcf7.zappy5.app
+- Endpoint: https://-4d21dcf7.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About יהונתן גורביץ
+A charitable initiative focused on supporting Israeli soldiers and reservists (Miluim). The landing page aims to collect monetary donations and food vouchers for soldiers, while also building an email/contact list of supporters. The cause is patriotic and community-driven, centered around military support and national solidarity.
+
+## Target Audience
+- תורמים פוטנציאליים המעוניינים לתמוך בחיילים ואנשי מילואים
+- תורמים פוטנציאליים תומכי חיילים
+- ותיקים ובני משפחה
+- ארגונים פטריוטיים
+
+## Industry
+Nonprofit / Charity
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-4d21dcf7.zappy5.app/sitemap.xml
+- Robots: https://-4d21dcf7.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-4d21dcf7.zappy5.app/llms-full.txt
