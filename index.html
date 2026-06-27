@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone aria-label="התקשר">
+  <button class="phone-header-btn" data-phone="0549417290" aria-label="התקשר">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0549417290';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -855,21 +855,21 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="heroDividerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#E8DFD0"/>
-          <stop offset="100%" stop-color="#F5EFE6"/>
+          <stop offset="0%" stop-color="#E8DFD0"></stop>
+          <stop offset="100%" stop-color="#F5EFE6"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,35 Q80,28 160,38 T320,32 Q400,40 480,30 T640,38 Q720,32 800,40 T960,30 Q1040,38 1120,32 T1200,38 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,35 Q80,28 160,38 T320,32 Q400,40 480,30 T640,38 Q720,32 800,40 T960,30 Q1040,38 1120,32 T1200,38 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 
   <div class="hero-olive-branch" aria-hidden="true">
     <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6">
-      <path d="M50,10 Q40,20 35,30 Q30,40 25,50"/>
-      <ellipse cx="42" cy="18" rx="3" ry="6" transform="rotate(-30 42 18)"/>
-      <ellipse cx="36" cy="28" rx="2.5" ry="5" transform="rotate(-20 36 28)"/>
-      <ellipse cx="30" cy="40" rx="2" ry="4" transform="rotate(-15 30 40)"/>
-      <ellipse cx="48" cy="14" rx="2.5" ry="5" transform="rotate(-45 48 14)"/>
+      <path d="M50,10 Q40,20 35,30 Q30,40 25,50"></path>
+      <ellipse cx="42" cy="18" rx="3" ry="6" transform="rotate(-30 42 18)"></ellipse>
+      <ellipse cx="36" cy="28" rx="2.5" ry="5" transform="rotate(-20 36 28)"></ellipse>
+      <ellipse cx="30" cy="40" rx="2" ry="4" transform="rotate(-15 30 40)"></ellipse>
+      <ellipse cx="48" cy="14" rx="2.5" ry="5" transform="rotate(-45 48 14)"></ellipse>
     </svg>
   </div>
 </section>
@@ -890,7 +890,7 @@
         <div class="index-features-section__card-icon">
           <!-- Handcrafted heart icon with accent fill -->
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 28C16 28 4 20 4 12C4 8 7 5 10.5 5C12.8 5 14.8 6.2 16 7.8C17.2 6.2 19.2 5 21.5 5C25 5 28 8 28 12C28 20 16 28 16 28Z" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 28C16 28 4 20 4 12C4 8 7 5 10.5 5C12.8 5 14.8 6.2 16 7.8C17.2 6.2 19.2 5 21.5 5C25 5 28 8 28 12C28 20 16 28 16 28Z" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="index-features-section__card-title">תרומה כספית ישירה</h3>
@@ -902,12 +902,12 @@
         <div class="index-features-section__card-icon">
           <!-- Wheat stalk icon -->
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 4C16 4 10 10 10 16C10 22 16 28 16 28C16 28 22 22 22 16C22 10 16 4 16 4Z" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16 4L16 28" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M12 8L8 4" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M20 8L24 4" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M12 14L6 12" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M20 14L26 12" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16 4C16 4 10 10 10 16C10 22 16 28 16 28C16 28 22 22 22 16C22 10 16 4 16 4Z" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16 4L16 28" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M12 8L8 4" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M20 8L24 4" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M12 14L6 12" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M20 14L26 12" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="index-features-section__card-title">שוברי מזון למשפחות</h3>
@@ -919,10 +919,10 @@
         <div class="index-features-section__card-icon">
           <!-- Connected people icon -->
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="10" r="4" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
-            <circle cx="22" cy="12" r="3" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
-            <path d="M4 26C4 22 7 20 12 20C17 20 20 22 20 26" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M19 24C19 21 21 20 24 20C27 20 28 21 28 24" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="12" cy="10" r="4" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"></circle>
+            <circle cx="22" cy="12" r="3" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"></circle>
+            <path d="M4 26C4 22 7 20 12 20C17 20 20 22 20 26" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M19 24C19 21 21 20 24 20C27 20 28 21 28 24" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="index-features-section__card-title">הצטרפות לרשימת התפוצה</h3>
@@ -937,10 +937,10 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="torn-shadow" x="-5%" y="-10%" width="110%" height="120%">
-          <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+          <fedropshadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"></fedropshadow>
         </filter>
       </defs>
-      <path d="M0,80 L0,35 Q60,28 120,38 T240,30 Q300,42 360,32 T480,38 Q540,28 600,35 T720,30 Q780,40 840,33 T960,38 Q1020,28 1080,36 T1200,40 L1200,80 Z" fill="var(--bg-light)" filter="url(#torn-shadow)"/>
+      <path d="M0,80 L0,35 Q60,28 120,38 T240,30 Q300,42 360,32 T480,38 Q540,28 600,35 T720,30 Q780,40 840,33 T960,38 Q1020,28 1080,36 T1200,40 L1200,80 Z" fill="var(--bg-light)" filter="url(#torn-shadow)"></path>
     </svg>
   </div>
 </section>
@@ -958,19 +958,19 @@
       <ul class="index-about-section__values">
         <li class="index-about-section__value-item">
           <span class="index-about-section__value-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg>
           </span>
           <span class="index-about-section__value-text"><strong>כבוד ושקיפות:</strong> אנו מכבדים את התורמים ומקפידים לדווח על כל פעילות. האמון שלכם הוא המטבע הכי חזק שלנו.</span>
         </li>
         <li class="index-about-section__value-item">
           <span class="index-about-section__value-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </span>
           <span class="index-about-section__value-text"><strong>מיידיות:</strong> ברגע שצריך – אנחנו שם. אנו מפעילים מערך לוגיסטי שמסוגל לספק שוברי מזון וציוד בתוך שעות מרגע זיהוי הצורך.</span>
         </li>
         <li class="index-about-section__value-item">
           <span class="index-about-section__value-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
           </span>
           <span class="index-about-section__value-text"><strong>קהילה:</strong> אנחנו רשת של אלפי ישראלים טובים – תורמים, מתנדבים, ובעלי עסקים – שמבינים שיחד אנחנו חזקים יותר.</span>
         </li>
@@ -993,7 +993,7 @@
   <!-- Bottom divider: diagonal soft-sand band -->
   <div class="index-about-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="0,80 1200,80 1200,0 0,60" fill="var(--bg-dark)"/>
+      <polygon points="0,80 1200,80 1200,0 0,60" fill="var(--bg-dark)"></polygon>
     </svg>
   </div>
 </section>
@@ -1008,7 +1008,7 @@
             <article class="index-testimonials-section__card index-testimonials-section__card--tall">
                 <div class="index-testimonials-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                     </svg>
                 </div>
                 <blockquote class="index-testimonials-section__quote">
@@ -1023,10 +1023,10 @@
             <article class="index-testimonials-section__card">
                 <div class="index-testimonials-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                        <circle cx="9" cy="7" r="4"/>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
                 <blockquote class="index-testimonials-section__quote">
@@ -1041,7 +1041,7 @@
             <article class="index-testimonials-section__card">
                 <div class="index-testimonials-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                     </svg>
                 </div>
                 <blockquote class="index-testimonials-section__quote">
@@ -1060,11 +1060,11 @@
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="testimonialFade" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#4A6741" stop-opacity="1"/>
-                    <stop offset="100%" stop-color="#6E7F5B" stop-opacity="1"/>
+                    <stop offset="0%" stop-color="#4A6741" stop-opacity="1"></stop>
+                    <stop offset="100%" stop-color="#6E7F5B" stop-opacity="1"></stop>
                 </linearGradient>
             </defs>
-            <path d="M0,80 L0,30 Q80,15 160,28 T320,22 Q400,28 480,18 T640,25 Q720,15 800,28 T960,20 Q1040,28 1120,18 T1200,30 L1200,80 Z" fill="var(--bg-light)"/>
+            <path d="M0,80 L0,30 Q80,15 160,28 T320,22 Q400,28 480,18 T640,25 Q720,15 800,28 T960,20 Q1040,28 1120,18 T1200,30 L1200,80 Z" fill="var(--bg-light)"></path>
         </svg>
     </div>
 </section>
@@ -1100,7 +1100,7 @@
   </div>
   <div class="index-stats-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,30 Q100,10 200,25 T400,20 Q500,30 600,18 T800,25 Q900,15 1000,28 T1200,20 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,30 Q100,10 200,25 T400,20 Q500,30 600,18 T800,25 Q900,15 1000,28 T1200,20 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -1162,19 +1162,19 @@
     <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="terracottaBrush" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#C96B4B" stop-opacity="0.85"/>
-          <stop offset="50%" stop-color="#C96B4B" stop-opacity="0.6"/>
-          <stop offset="100%" stop-color="#C96B4B" stop-opacity="0.35"/>
+          <stop offset="0%" stop-color="#C96B4B" stop-opacity="0.85"></stop>
+          <stop offset="50%" stop-color="#C96B4B" stop-opacity="0.6"></stop>
+          <stop offset="100%" stop-color="#C96B4B" stop-opacity="0.35"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,45 Q30,38 60,42 T120,35 Q150,42 180,38 T240,45 Q270,38 300,42 T360,35 Q390,42 420,38 T480,45 Q510,38 540,42 T600,35 Q630,42 660,38 T720,45 Q750,38 780,42 T840,35 Q870,42 900,38 T960,45 Q990,38 1020,42 T1080,35 Q1110,42 1140,38 T1200,45 L1200,80 Z" fill="var(--bg-dark)"/>
+      <path d="M0,80 L0,45 Q30,38 60,42 T120,35 Q150,42 180,38 T240,45 Q270,38 300,42 T360,35 Q390,42 420,38 T480,45 Q510,38 540,42 T600,35 Q630,42 660,38 T720,45 Q750,38 780,42 T840,35 Q870,42 900,38 T960,45 Q990,38 1020,42 T1080,35 Q1110,42 1140,38 T1200,45 L1200,80 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 
   <!-- Decorative motif: heart-hands-bg -->
   <div class="gallery-decorative-motif" aria-hidden="true">
     <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M100 180C100 180 20 130 20 70C20 30 60 10 100 40C140 10 180 30 180 70C180 130 100 180 100 180Z" fill="#E8DFD0" opacity="0.4"/>
+      <path d="M100 180C100 180 20 130 20 70C20 30 60 10 100 40C140 10 180 30 180 70C180 130 100 180 100 180Z" fill="#E8DFD0" opacity="0.4"></path>
     </svg>
   </div>
 </section>
@@ -1198,7 +1198,7 @@
                 </p>
                 <div class="index-contact-section__reassurance">
                     <svg class="index-contact-section__reassurance-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" stroke="none"/>
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" stroke="none"></path>
                     </svg>
                     <span>הפרטים שלכם נשארים אצלנו בלבד — בלי ספאם, בלי הצפה, רק עדכונים שחשובים באמת.</span>
                 </div>
@@ -1211,11 +1211,11 @@
                 <form class="contact-form index-contact-section__form">
                     <div class="index-contact-section__field-group">
                         <label for="contact-name" class="index-contact-section__label" style="color: #FFFFFF !important">שם מלא</label>
-                        <input type="text" id="contact-name" name="name" class="index-contact-section__input" placeholder="השם שלך" required>
+                        <input type="text" id="contact-name" name="name" class="index-contact-section__input" placeholder="השם שלך" required="">
                     </div>
                     <div class="index-contact-section__field-group">
                         <label for="contact-email" class="index-contact-section__label" style="color: #FFFFFF !important">דוא"ל</label>
-                        <input type="email" id="contact-email" name="email" class="index-contact-section__input" placeholder="your@email.co.il" required>
+                        <input type="email" id="contact-email" name="email" class="index-contact-section__input" placeholder="your@email.co.il" required="">
                     </div>
                     <div class="index-contact-section__field-group">
                         <label for="contact-phone" class="index-contact-section__label" style="color: #FFFFFF !important">טלפון</label>
@@ -1228,7 +1228,7 @@
                     
                     <div class="privacy-consent index-contact-section__privacy">
                         <label class="privacy-consent-label index-contact-section__privacy-label">
-                            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox index-contact-section__checkbox" required>
+                            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox index-contact-section__checkbox" required="">
                             <span style="color: #FFFFFF !important">קראתי ואני מסכים/ה ל<a href="/terms" target="_blank" class="index-contact-section__privacy-link">תנאי השימוש</a> ול<a href="/privacy" target="_blank" class="index-contact-section__privacy-link">מדיניות הפרטיות</a></span>
                         </label>
                     </div>
@@ -1269,11 +1269,11 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:itayzz7744@gmail.com">itayzz7744@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0549417290">0549417290</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1283,20 +1283,18 @@
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
           <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://wa.me/972549417290" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1319,7 +1317,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972549417290" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
