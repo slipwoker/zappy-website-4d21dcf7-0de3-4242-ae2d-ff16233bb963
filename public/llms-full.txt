@@ -2,13 +2,13 @@
 
 A charitable initiative focused on supporting Israeli soldiers and reservists (Miluim). The landing page aims to collect monetary donations and food vouchers for soldiers, while also building an email/contact list of supporters. The cause is patriotic and community-driven, centered around military support and national solidarity.
 
-Source: https://-4d21dcf7.zappy5.app
+Source: https://example.com
 
 ---
 
 ## תמכו בלוחמים שלנו עכשיו — יהונתן גורביץ
 
-URL: https://-4d21dcf7.zappy5.app
+URL: https://example.com
 Description: הצטרפו ליוזמת ההתנדבות הלאומית ותרמו כסף או שוברי מזון לחיילי צה״ל ולמילואימניקים. כל תרומה מחזקת את העורף הישראלי ומביאה תקווה בשטח. השאירו פרטים והפכו שותפים למעגל התמיכה.
 
 תמכו בלוחמים שלנו עכשיו — יהונתן גורביץ
@@ -555,7 +555,7 @@ Description: הצטרפו ליוזמת ההתנדבות הלאומית ותרמ�
 
 ## מדיניות פרטיות
 
-URL: https://-4d21dcf7.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -822,7 +822,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-4d21dcf7.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1098,7 +1098,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-4d21dcf7.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1393,7 +1393,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה על פנייתך
 
-URL: https://-4d21dcf7.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: יהונתן גורביץ - תודה על פנייתך
 
 תודה על פנייתך
